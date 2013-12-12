@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ロック画面関連</string>
+    <string name="app_desc">ロック画面(Xperia SwipeSlide 4.1 Only)の機能・レイアウトを変更します</string>
+    
+    <string name="is_hook_lockscreen_key">ISHookLockScreenKey</string>
+    <string name="is_hook_lockscreen_title">ロック画面 拡張</string>
+    <string name="is_hook_lockscreen_summary">ロック画面を拡張する</string>
+    
+    <string name="settings_lockscreen_title">ロック画面関連</string>
+    <string name="settings_lockscreen_summary">ロック画面(Xperia SwipeSlide 4.1 Only)の機能・レイアウトを変更します</string>
+    <string name="settings_lockscreen_clock_key">LockScreenClockKey</string>
+    <string name="settings_lockscreen_clock_title">ロック画面の時計</string>
+    <string name="settings_lockscreen_clock_summary">ロック画面の時計設定</string>
+    <string name="settings_lockscreen_other_key">LockScreenInfoVisibilityKey</string>
+    <string name="settings_lockscreen_other_title">ロック画面の各種情報</string>
+    <string name="settings_lockscreen_other_summary">ロック画面の各種情報 設定</string>
+    <string name="settings_hook_lockscreen_clock_margin_key">LockScreenClockMarginKey</string>
+    <string name="settings_hook_lockscreen_clock_margin_title">ロック画面の時計位置</string>
+    <string name="settings_hook_lockscreen_clock_margin_summary">ロック画面の時計の位置を指定</string>
+    <string name="settings_hook_lockscreen_clock_top_margin_key">HookLockScreenClockTopMarginkey</string>
+    <string name="settings_hook_lockscreen_clock_top_margin_title">ロック画面の時計上位置</string>
+    <string name="settings_hook_lockscreen_clock_top_margin_summary">ロック画面の時計の画面上からの位置を指定</string>
+    <string name="settings_hook_lockscreen_clock_left_margin_key">HookLockScreenClockLeftMarginkey</string>
+    <string name="settings_hook_lockscreen_clock_left_margin_title">ロック画面の時計左位置</string>
+    <string name="settings_hook_lockscreen_clock_left_margin_summary">ロック画面の時計の画面左からの位置を指定</string>
+    <string name="settings_hook_lockscreen_next_alarm_key">HookLockScreenAlarmkey</string>
+    <string name="settings_hook_lockscreen_next_alarm_title">ロック画面の次回アラーム時刻</string>
+    <string name="settings_hook_lockscreen_next_alarm_summary">ロック画面の次回アラーム時刻を表示する</string>
+    <string name="settings_hook_lockscreen_carrier_key">HookLockScreenCarrierkey</string>
+    <string name="settings_hook_lockscreen_carrier_title">ロック画面のキャリア名</string>
+    <string name="settings_hook_lockscreen_carrier_summary">ロック画面のキャリア名を表示する</string>
+    <string name="settings_hook_lockscreen_battery_key">HookLockScreenBatterykey</string>
+    <string name="settings_hook_lockscreen_battery_title">ロック画面のバッテリー情報</string>
+    <string name="settings_hook_lockscreen_battery_summary">ロック画面のバッテリー情報を表示する</string>
+    <string name="settings_hook_lockscreen_hint_key">HookLockScreenHintkey</string>
+    <string name="settings_hook_lockscreen_hint_title">ロック画面のスワイプヒント</string>
+    <string name="settings_hook_lockscreen_hint_summary">ロック画面のスワイプヒントを表示する</string>
+    <string name="settings_hook_lockscreen_tool_key">HookLockScreenToolskey</string>
+    <string name="settings_hook_lockscreen_tool_title">ロック画面のツール不透明度</string>
+    <string name="settings_hook_lockscreen_tool_summary">ロック画面のカメラ・ミュージックの不透明度設定</string>
+
+</resources>

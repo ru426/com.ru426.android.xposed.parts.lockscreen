@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="XExtendsSeekBar">
+        <attr name="summary" format="string" />
+        <attr name="progressMax" format="integer" />
+        <attr name="progressValueName" format="string" />
+        <attr name="progressExtra" format="integer" />
+        <attr name="summaryExtra" format="string" />
+        <attr name="progressAmount" format="integer" />
+        <attr name="summaryExtraUnit" format="integer" />
+    </declare-styleable>
+
+</resources>

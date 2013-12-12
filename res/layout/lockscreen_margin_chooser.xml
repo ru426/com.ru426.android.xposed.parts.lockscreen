@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xExtendsSeekBar="http://schemas.android.com/apk/res/com.ru426.android.xposed.parts.lockscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="vertical" >
+
+            <com.ru426.android.xposed.parts.lockscreen.view.XExtendsSeekBar
+                android:id="@+id/topMargin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                xExtendsSeekBar:progressExtra="360"
+                xExtendsSeekBar:progressMax="1640"
+                xExtendsSeekBar:progressValueName="@string/settings_hook_lockscreen_clock_top_margin_key"
+                xExtendsSeekBar:summary="@string/settings_hook_lockscreen_clock_top_margin_title" />
+
+            <com.ru426.android.xposed.parts.lockscreen.view.XExtendsSeekBar
+                android:id="@+id/leftMargin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                xExtendsSeekBar:progressExtra="1080"
+                xExtendsSeekBar:progressMax="1800"
+                xExtendsSeekBar:progressValueName="@string/settings_hook_lockscreen_clock_left_margin_key"
+                xExtendsSeekBar:summary="@string/settings_hook_lockscreen_clock_left_margin_title" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@android:color/darker_gray" />
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:paddingTop="12.0dip"
+                android:text="@string/ru_reset_default"
+                android:textAppearance="?android:attr/textAppearanceButton" />
+        </LinearLayout>
+
+</ScrollView>

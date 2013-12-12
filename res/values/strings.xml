@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lock Screen Settings</string>
+    <string name="app_desc">Change Lock Screen(Xperia SwipeSlide 4.1 Only) Settings</string>
+    
+    <string name="is_hook_lockscreen_key">ISHookLockScreenKey</string>
+    <string name="is_hook_lockscreen_title">LockScreen Mod</string>
+    <string name="is_hook_lockscreen_summary">Use LockScreen Mod</string>
+    
+    <string name="settings_lockscreen_title">Lock Screen Settings</string>
+    <string name="settings_lockscreen_summary">Change Lock Screen(Xperia SwipeSlide 4.1 Only) Settings</string>
+    <string name="settings_lockscreen_clock_key">LockScreenClockKey</string>
+    <string name="settings_lockscreen_clock_title">LockScreen Clock</string>
+    <string name="settings_lockscreen_clock_summary">LockScreen Clock Settings</string>
+    <string name="settings_lockscreen_other_key">LockScreenInfoVisibilityKey</string>
+    <string name="settings_lockscreen_other_title">LockScreen Info Visibility</string>
+    <string name="settings_lockscreen_other_summary">LockScreen Info Visibility Settings</string>
+    <string name="settings_hook_lockscreen_clock_margin_key">LockScreenClockMarginKey</string>
+    <string name="settings_hook_lockscreen_clock_margin_title">LockScreen Clock margin</string>
+    <string name="settings_hook_lockscreen_clock_margin_summary">Settings LockScreen Clock margin.</string>
+    <string name="settings_hook_lockscreen_clock_top_margin_key">HookLockScreenClockTopMarginkey</string>
+    <string name="settings_hook_lockscreen_clock_top_margin_title">LockScreen Clock top margin</string>
+    <string name="settings_hook_lockscreen_clock_top_margin_summary">Settings LockScreen Clock top margin</string>
+    <string name="settings_hook_lockscreen_clock_left_margin_key">HookLockScreenClockLeftMarginkey</string>
+    <string name="settings_hook_lockscreen_clock_left_margin_title">LockScreen Clock left margin</string>
+    <string name="settings_hook_lockscreen_clock_left_margin_summary">Settings LockScreen Clock left margin</string>
+    <string name="settings_hook_lockscreen_next_alarm_key">HookLockScreenAlarmkey</string>
+    <string name="settings_hook_lockscreen_next_alarm_title">LockScreen Next Alarm</string>
+    <string name="settings_hook_lockscreen_next_alarm_summary">Show LockScreen Next Alarm</string>
+    <string name="settings_hook_lockscreen_carrier_key">HookLockScreenCarrierkey</string>
+    <string name="settings_hook_lockscreen_carrier_title">LockScreen Carrier Name</string>
+    <string name="settings_hook_lockscreen_carrier_summary">Show LockScreen Carrier Name</string>
+    <string name="settings_hook_lockscreen_battery_key">HookLockScreenBatterykey</string>
+    <string name="settings_hook_lockscreen_battery_title">LockScreen Battery Info</string>
+    <string name="settings_hook_lockscreen_battery_summary">Show LockScreen Battery Info</string>
+    <string name="settings_hook_lockscreen_hint_key">HookLockScreenHintkey</string>
+    <string name="settings_hook_lockscreen_hint_title">LockScreen Swipe hint</string>
+    <string name="settings_hook_lockscreen_hint_summary">Show LockScreen Swipe hint</string>
+    <string name="settings_hook_lockscreen_tool_key">HookLockScreenToolskey</string>
+    <string name="settings_hook_lockscreen_tool_title">LockScreen tool　alpha</string>
+    <string name="settings_hook_lockscreen_tool_summary">Show LockScreen Camera&amp;Music tool transmittance setting</string>
+
+</resources>

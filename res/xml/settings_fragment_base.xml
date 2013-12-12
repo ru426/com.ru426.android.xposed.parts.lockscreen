@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:summary="@string/settings_lockscreen_summary"
+        android:title="@string/settings_lockscreen_title" >
+        <CheckBoxPreference
+            android:key="@string/is_hook_lockscreen_key"
+            android:summary="@string/is_hook_lockscreen_summary"
+            android:title="@string/is_hook_lockscreen_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/settings_lockscreen_clock_key"
+        android:summary="@string/settings_lockscreen_clock_summary"
+        android:title="@string/settings_lockscreen_clock_title" >
+        <Preference
+            android:summary="@string/settings_hook_lockscreen_clock_margin_summary"
+            android:title="@string/settings_hook_lockscreen_clock_margin_title"
+            android:key="@string/settings_hook_lockscreen_clock_margin_key" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/settings_lockscreen_other_key"
+        android:summary="@string/settings_lockscreen_other_summary"
+        android:title="@string/settings_lockscreen_other_title" >
+        <Preference
+            android:key="@string/settings_hook_lockscreen_tool_key"
+            android:summary="@string/settings_hook_lockscreen_tool_summary"
+            android:title="@string/settings_hook_lockscreen_tool_title" />
+
+        <CheckBoxPreference
+            android:key="@string/settings_hook_lockscreen_next_alarm_key"
+            android:summary="@string/settings_hook_lockscreen_next_alarm_summary"
+            android:title="@string/settings_hook_lockscreen_next_alarm_title" />
+        <CheckBoxPreference
+            android:key="@string/settings_hook_lockscreen_carrier_key"
+            android:summary="@string/settings_hook_lockscreen_carrier_summary"
+            android:title="@string/settings_hook_lockscreen_carrier_title" />
+        <CheckBoxPreference
+            android:key="@string/settings_hook_lockscreen_battery_key"
+            android:summary="@string/settings_hook_lockscreen_battery_summary"
+            android:title="@string/settings_hook_lockscreen_battery_title" />
+        <CheckBoxPreference
+            android:key="@string/settings_hook_lockscreen_hint_key"
+            android:summary="@string/settings_hook_lockscreen_hint_summary"
+            android:title="@string/settings_hook_lockscreen_hint_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
